@@ -1,0 +1,56 @@
+.menu {
+    position: fixed;
+}
+.uibutton {
+  position: relative;
+  float: right;
+  right: 0px;
+  display: inline-block;
+  background-color: #0A44AA;
+  border-radius: 3px;
+  color: #18CC22;
+  border: none;
+}
+.uibutton:hover {
+  background-color: #1A85CC;
+}
+.sidemenu {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 10px;
+  width: 50px;
+  border-radius: 0px 0px 50px 0px;
+  background-color: #1C1C1C;
+}
+.sidemenublock{
+  position: fixed;
+  left: inherit;
+  bottom: inherit;
+  width: 50px;
+  height: 150px;
+  border-radius: 0px 0px 50px 0px;
+  background: -webkit-linear-gradient(90deg,
+    rgba(28, 28, 28, 1),rgba(28, 28, 28, 1),rgba(28,28,28,0));
+  background: -moz-linear-gradient(90deg,
+    rgba(28, 28, 28, 1),rgba(28, 28, 28, 1),rgba(28,28,28,0));
+  z-index: 10; 
+}
+.sidemenubutton{
+  position: fixed;
+  width: 44px;
+  height: 44px;
+  text-align:center;
+  margin-left: 3px;
+  background-color: rgba(0,0,0,0);
+  border-radius: 3px;
+  border: 2px solid #888888;
+}
+.sidemenubutton:hover{
+  border: 2px solid #AAAAAA;
+}
+.sidemenubutton:active{
+  width: 46px;
+  height: 46px;
+  margin-left: 2px;
+}
